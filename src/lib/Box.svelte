@@ -1,21 +1,25 @@
 <script lang="ts">
-    export let text: string    
+    export let title: string
+    export let body: string    
 </script>
 <div>
-    {text}
+    <h1>
+        {body}
+    </h1>
+    {body}
 </div>
 
 <style>
     div{
-        background-color: #FF00FF;
+        background-color: #474747;
         width: 100px;
         height: 100px;
         margin: auto;
         border-radius: 15%;
         display: grid;
         place-items: center;
-        color: black;
-
+        color: #000000;
+        outline-color: aqua;
     }
 
 </style>
