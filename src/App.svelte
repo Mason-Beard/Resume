@@ -6,7 +6,8 @@ import { fade, blur, fly, slide, scale } from "svelte/transition";
 
 <main>
   <h1 in:slide='{{ delay: 500, easing: cubicOut }}' >Mason Beard</h1>
-  <Box title="" body = ""/>
+  <Box title="About Me" body = ""/>
+  <Box title="" body = ""/>   
 </main>
 
 <style>

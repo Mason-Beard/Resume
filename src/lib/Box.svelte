@@ -4,22 +4,24 @@
 </script>
 <div>
     <h1>
-        {body}
+        {title}
     </h1>
     {body}
 </div>
 
 <style>
     div{
-        background-color: #474747;
-        width: 100px;
-        height: 100px;
+        background-color: #474747; 
+        width: 400px;
+        height: 250px;
+        grid-column: auto;
         margin: auto;
-        border-radius: 15%;
+        border-radius: 5%;
         display: grid;
         place-items: center;
-        color: #000000;
-        outline-color: aqua;
+        color: #ffffff;
+        outline-style:solid;
+        outline-color: #303030;
     }
 
 </style>
